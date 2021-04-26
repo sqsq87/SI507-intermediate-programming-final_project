@@ -64,7 +64,7 @@ def save_cache(cache):
     cache_file.close()
 
 def make_url_request_use_cache(url,cache, params='none',headers=HEADER, merchant_id='none'):
-    '''make the request with the help of cache
+    '''make the API and html request with the help of cache
     
     Parameters
     ----------
@@ -259,7 +259,7 @@ def plot_map(merchant_table):
 
 
 def plot_bar(merchant_table):
-    '''plot the map which represents the score of each recommended restaurant
+    '''plot the bar which represents the score of each recommended restaurant
     
     Parameters
     ----------
